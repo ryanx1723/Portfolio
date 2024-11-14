@@ -1,21 +1,105 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-      <header>Ryan Pepper Development</header>
-      <hr>
-</body>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <header>TechTonic Development</header>
+    <hr />
+    <div
+      style="
+        max-width: 600px;
+        margin: 50px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      "
+    >
+      <h2 style="text-align: center; color: #333">Contact Me</h2>
+
+      <form
+        action="#"
+        method="post"
+        style="display: flex; flex-direction: column; gap: 15px"
+      >
+        <label for="name" style="font-size: 14px; color: #333"
+          >Your Name:</label
+        >
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          style="
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+          "
+        />
+
+        <label for="email" style="font-size: 14px; color: #333"
+          >Your Email:</label
+        >
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          style="
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+          "
+        />
+
+        <label for="message" style="font-size: 14px; color: #333"
+          >Your Message:</label
+        >
+        <textarea
+          id="message"
+          name="message"
+          required
+          rows="5"
+          style="
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+          "
+        ></textarea>
+
+        <button
+          type="submit"
+          style="
+            padding: 10px 20px;
+            background-color: #000000;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+          "
+        >
+          Send Message
+        </button>
+      </form>
+    </div>
+    <footer>
+      <p>© 2024 TechTonic Development. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
